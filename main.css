@@ -204,6 +204,7 @@ section {
   border-radius: 0.4rem;
   padding: 1rem 2rem;
   margin: 1rem 0;
+  min-width: 50%;
 }
 
 .service-description {
