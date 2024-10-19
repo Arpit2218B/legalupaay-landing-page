@@ -13,6 +13,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background: #FCFCFF;
 }
 
 body {
@@ -124,15 +125,19 @@ header .logoContainer {
 }
 
 .logo {
-  width: 150px;
+  width: 250px
+}
+
+header nav ul {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 500px) {
   .textLogo {
-    display: unset;
+    /* display: unset; */
   }
   .logo {
-    display: none;
+    width: 180px;
   }
 }
 
@@ -144,6 +149,7 @@ header nav ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 1em;
+  font-size: 0.8rem;
 }
 
 header nav ul a {
@@ -289,10 +295,10 @@ section {
   color: var(--primary-color);
 }
 
-.hire-me .hire-me-btn {
-  background-color: var(--primary-color);
-  color: #FFFFFF;
-  padding: 0.8em 1.6em;
+.hire-me-btn {
+  color: var(--primary-color);
+  background-color: #FFFFFF;
+  padding: 0.8em 3.6em;
   font-weight: bold;
   letter-spacing: 0.1em;
   cursor: pointer;
@@ -437,6 +443,9 @@ section {
   .nav-container {
     position: static;
   }
+  header nav ul {
+    font-size: 1rem;
+  }
   .social-footer > ul {
     display: none;
   }
@@ -564,11 +573,13 @@ section {
   }
   .hero .content .meet p {
     margin-left: 0.5em;
+    font-size: 1rem;
+    font-weight: 400;
   }
   .hero .hero-design {
     display: unset;
-    margin-left: -50%;
-    margin-top: 25%;
+    /* margin-left: -50%; */
+    margin-top: -10%;
     width: 100%;
   }
   .about__inner {
